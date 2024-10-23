@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: "Poppins", sans-serif;
+    background-color:  wheat ;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    line-height: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left:10px;
+    padding-right: 15px;
+}
+
+nav {
+    background-color: #020526;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+.main-nav {
+    color: white;
+    justify-content: space-between;
+    padding-block: 8px;
+}
+
+.company-logo img {
+    width: 100px;
+}
+
+.nav-links ul {
+    gap: 15px;
+}
+
+.hover-link {
+    cursor: pointer;
+}
+
+.hover-link:hover {
+    color: rgb(0, 162, 255);
+}
+
+.hover-link:active {
+    color: red;
+}
+
+.nav-item.active {
+    color: #2294ed;
+}
+
+.search-bar {
+    height: 32px;
+    gap: 8px;
+}
+
+.news-input {
+    width: 200px;
+    height: 100%;
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid #bbd0e2;
+    font-family: "Roboto", sans-serif;
+}
+
+.search-button {
+    background-color: #2294ed;
+    color: white;
+    margin-right: 0.75rem;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.search-button:hover {
+    background-color: #1d69a3;
+}
+
+main {
+    background-color: white;
+    padding-block: 20px;
+    margin-top: 80px;
+}
+
+.cards-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+}
+
+.card {
+    width: 360px;
+    height: 360px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #ffffff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 8px #d4ecff;
+    background-color: #a2d2ff;
+    transform: translateY(-2px);
+}
+
+.card-header img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 12px;
+}
+
+.news-source {
+    margin-block: 12px;
+}
+
+.modes i{
+    color: white;
+    font-size: large;
+}
+
+.dark-mode{
+
+    background-color: #020526;
+    main{
+        background-color: #020526;
+    }
+}
+
+.logo{
+
+    height: auto;
+    padding-left :0px;
+    padding-bottom: 0px;
+}
